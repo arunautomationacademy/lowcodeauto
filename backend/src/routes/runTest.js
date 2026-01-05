@@ -11,7 +11,7 @@ router.post("/", async (req, res) => {
     console.log("Run Test clicked", steps); // ✅ now safe to log
 
     // Optional: validate steps
-    validateSteps(steps);
+   // validateSteps(steps);
 
     // Run your Playwright test
     const result = await runPlaywrightTest(steps);
